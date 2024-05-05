@@ -2,7 +2,7 @@ using System;
 using System.Data;
 using MySqlConnector;
 
-namespace RessMan.Modell.Database
+namespace RessMan.Model
 {
     public class DBModel
     {

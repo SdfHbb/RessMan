@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+using System.Windows.Forms;
+using RessMan.Modell.Database;
 
 namespace RessMan.Views
 {
@@ -7,6 +8,7 @@ namespace RessMan.Views
         public FormMain()
         {
             InitializeComponent();
+            DBArtikel.SelectArtikel(dataGridView);
         }
     }
 }
