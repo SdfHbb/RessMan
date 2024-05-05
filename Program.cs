@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RessMan.Modell;
+using RessMan.Modell.Database;
+using RessMan.Views;
 
 namespace RessMan
 {
@@ -14,9 +17,13 @@ namespace RessMan
         [STAThread]
         static void Main()
         {
+            DBModel.CreateDatabase("ressman");
+            DBModel.CreateTables();
+            // DBModel.DropDatabase("ressman");
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormMain());
         }
     }
 }
