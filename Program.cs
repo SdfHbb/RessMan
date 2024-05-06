@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using RessMan.Model;
 using RessMan.Modell;
 using RessMan.Modell.Database;
 using RessMan.Views;

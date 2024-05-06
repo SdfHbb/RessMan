@@ -2,7 +2,6 @@ using System;
 using System.Data;
 using System.Windows.Forms;
 using MySqlConnector;
-using RessMan.Model;
 using RessMan.Modell.Classes;
 
 namespace RessMan.Modell.Database
