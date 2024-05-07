@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 namespace RessMan.Views
 {
-    partial class UCMain
+    partial class UcHome
     {
         /// <summary> 
         /// Required designer variable.
@@ -31,8 +31,8 @@ namespace RessMan.Views
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UcHome));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panel1
@@ -43,26 +43,18 @@ namespace RessMan.Views
             this.panel1.Size = new System.Drawing.Size(1160, 196);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(647, 304);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(229, 67);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "bla";
-            // 
-            // UcArtikel
+            // UcHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Controls.Add(this.panel1);
-            this.Name = "UcArtikel";
+            this.DoubleBuffered = true;
+            this.Name = "UcHome";
             this.Size = new System.Drawing.Size(1160, 635);
             this.ResumeLayout(false);
         }
-
-        private System.Windows.Forms.Label label1;
 
         private System.Windows.Forms.Panel panel1;
 

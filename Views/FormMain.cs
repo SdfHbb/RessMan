@@ -9,7 +9,8 @@ namespace RessMan.Views
         public FormMain()
         {
             InitializeComponent();
-            
+            UcHome ucMain = new UcHome();
+            AddUserControl(ucMain);
         }
 
         private void AddUserControl(UserControl userControl)
@@ -23,7 +24,7 @@ namespace RessMan.Views
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            UCMain ucMain = new UCMain();
+            UcHome ucMain = new UcHome();
             AddUserControl(ucMain);
         }
 
@@ -31,6 +32,32 @@ namespace RessMan.Views
         {
             UcArtikel ucArtikel = new UcArtikel();
             AddUserControl(ucArtikel);
+        }
+
+        private void btnKunden_Click(object sender, EventArgs e)
+        {
+            UcKunde ucKunde = new UcKunde();
+            AddUserControl(ucKunde);
+        }
+
+        private void btnArtikelkategorien_Click(object sender, EventArgs e)
+        {
+            UcArtikelkategorien ucArtikelkategorien = new UcArtikelkategorien();
+            AddUserControl(ucArtikelkategorien);
+        }
+
+
+        private void btnBestellungen_Click(object sender, EventArgs e)
+        {
+            UcBestellungen ucBestellungen = new UcBestellungen();
+            AddUserControl(ucBestellungen);
+        }
+
+
+        private void btnBestellungsdetails_Click(object sender, EventArgs e)
+        {
+            UcBestellugendetails ucBestellugendetails = new UcBestellugendetails();
+            AddUserControl(ucBestellugendetails);
         }
     }
 }

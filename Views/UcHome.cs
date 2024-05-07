@@ -3,9 +3,9 @@ using RessMan.Modell.Database;
 
 namespace RessMan.Views
 {
-    public partial class UCMain : UserControl
+    public partial class UcHome : UserControl
     {
-        public UCMain()
+        public UcHome()
         {
             InitializeComponent();
         }

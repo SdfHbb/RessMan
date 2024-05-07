@@ -89,7 +89,7 @@ namespace RessMan.Modell.Database
                   "(" +
                   "BestellID int AUTO_INCREMENT PRIMARY KEY," +
                   "KundenNr int(11)," +
-                  "Datum datetime(6)," +
+                  "Datum date," +
                   "CONSTRAINT fkKundenBestellungen FOREIGN KEY (KundenNr)" +
                   "REFERENCES kunden (KundenID)" +
                   ")" +

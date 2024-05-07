@@ -90,6 +90,7 @@ namespace RessMan.Views
             this.btnBestellungen.TabIndex = 5;
             this.btnBestellungen.Text = "Bestellungen";
             this.btnBestellungen.UseVisualStyleBackColor = true;
+            this.btnBestellungen.Click += new System.EventHandler(this.btnBestellungen_Click);
             // 
             // btnKunden
             // 
@@ -99,6 +100,7 @@ namespace RessMan.Views
             this.btnKunden.TabIndex = 3;
             this.btnKunden.Text = "Kunden";
             this.btnKunden.UseVisualStyleBackColor = true;
+            this.btnKunden.Click += new System.EventHandler(this.btnKunden_Click);
             // 
             // btnBestellungsdetails
             // 
@@ -108,6 +110,7 @@ namespace RessMan.Views
             this.btnBestellungsdetails.TabIndex = 6;
             this.btnBestellungsdetails.Text = "Bestellungsdetails";
             this.btnBestellungsdetails.UseVisualStyleBackColor = true;
+            this.btnBestellungsdetails.Click += new System.EventHandler(this.btnBestellungsdetails_Click);
             // 
             // btnArtikelkategorien
             // 
@@ -117,6 +120,7 @@ namespace RessMan.Views
             this.btnArtikelkategorien.TabIndex = 4;
             this.btnArtikelkategorien.Text = "Artikelkategorien";
             this.btnArtikelkategorien.UseVisualStyleBackColor = true;
+            this.btnArtikelkategorien.Click += new System.EventHandler(this.btnArtikelkategorien_Click);
             // 
             // btnArtikel
             // 

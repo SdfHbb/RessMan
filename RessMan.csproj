@@ -89,11 +89,19 @@
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="Views\FormMain.cs" />
         <Compile Include="Views\FormMain.Designer.cs" />
-        <Compile Include="Views\UCMain.cs">
+        <Compile Include="Views\UcBestellugendetails.cs" />
+        <Compile Include="Views\UcBestellugendetails.Designer.cs" />
+        <Compile Include="Views\UcKunde.cs" />
+        <Compile Include="Views\UcKunde.Designer.cs" />
+        <Compile Include="Views\UcArtikelkategorien.cs" />
+        <Compile Include="Views\UcArtikelkategorien.Designer.cs" />
+        <Compile Include="Views\UcBestellungen.cs" />
+        <Compile Include="Views\UcBestellungen.Designer.cs" />
+        <Compile Include="Views\UcHome.cs">
           <SubType>UserControl</SubType>
         </Compile>
-        <Compile Include="Views\UCMain.Designer.cs">
-          <DependentUpon>UCMain.cs</DependentUpon>
+        <Compile Include="Views\UcHome.Designer.cs">
+          <DependentUpon>UcHome.cs</DependentUpon>
         </Compile>
         <Compile Include="Views\UcArtikel.cs" />
         <Compile Include="Views\UcArtikel.Designer.cs" />
@@ -107,8 +115,12 @@
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
         <EmbeddedResource Include="Views\FormMain.resx" />
-        <EmbeddedResource Include="Views\UCMain.resx">
-          <DependentUpon>UCMain.cs</DependentUpon>
+        <EmbeddedResource Include="Views\UcBestellugendetails.resx" />
+        <EmbeddedResource Include="Views\UcKunde.resx" />
+        <EmbeddedResource Include="Views\UcArtikelkategorien.resx" />
+        <EmbeddedResource Include="Views\UcBestellungen.resx" />
+        <EmbeddedResource Include="Views\UcHome.resx">
+          <DependentUpon>UcHome.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Views\UcArtikel.resx" />
         <None Include="packages.config" />

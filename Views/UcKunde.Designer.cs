@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 namespace RessMan.Views
 {
-    partial class UcArtikel
+    partial class UcKunde
     {
         /// <summary> 
         /// Required designer variable.
@@ -42,29 +42,23 @@ namespace RessMan.Views
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
-            this.textBoxBild = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBoxKategorieNr = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBoxProduktionsland = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBoxGewicht = new System.Windows.Forms.TextBox();
+            this.textBoxTel = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBoxGroesse = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBoxMaterial = new System.Windows.Forms.TextBox();
+            this.textBoxOrt = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBoxFarbe = new System.Windows.Forms.TextBox();
+            this.textBoxPLZ = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBoxAnzahl = new System.Windows.Forms.TextBox();
+            this.textBoxHausNr = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBoxEinzelpreis = new System.Windows.Forms.TextBox();
+            this.textBoxStrasse = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBoxBeschreibung = new System.Windows.Forms.TextBox();
+            this.textBoxNachname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBoxArtikelname = new System.Windows.Forms.TextBox();
+            this.textBoxVorname = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBoxArtikelID = new System.Windows.Forms.TextBox();
+            this.textBoxKundenID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
@@ -129,29 +123,23 @@ namespace RessMan.Views
             this.groupBox1.Controls.Add(this.btnUpdate);
             this.groupBox1.Controls.Add(this.btnInsert);
             this.groupBox1.Controls.Add(this.btnReset);
-            this.groupBox1.Controls.Add(this.textBoxBild);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.textBoxKategorieNr);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.textBoxProduktionsland);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBoxGewicht);
+            this.groupBox1.Controls.Add(this.textBoxTel);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.textBoxGroesse);
+            this.groupBox1.Controls.Add(this.textBoxEmail);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBoxMaterial);
+            this.groupBox1.Controls.Add(this.textBoxOrt);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBoxFarbe);
+            this.groupBox1.Controls.Add(this.textBoxPLZ);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBoxAnzahl);
+            this.groupBox1.Controls.Add(this.textBoxHausNr);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBoxEinzelpreis);
+            this.groupBox1.Controls.Add(this.textBoxStrasse);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBoxBeschreibung);
+            this.groupBox1.Controls.Add(this.textBoxNachname);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBoxArtikelname);
+            this.groupBox1.Controls.Add(this.textBoxVorname);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBoxArtikelID);
+            this.groupBox1.Controls.Add(this.textBoxKundenID);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(80, 246);
@@ -159,7 +147,7 @@ namespace RessMan.Views
             this.groupBox1.Size = new System.Drawing.Size(1307, 487);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Artikel";
+            this.groupBox1.Text = "Kunde";
             // 
             // btnDelete
             // 
@@ -201,124 +189,76 @@ namespace RessMan.Views
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // textBoxBild
+            // textBoxTel
             // 
-            this.textBoxBild.Location = new System.Drawing.Point(648, 246);
-            this.textBoxBild.Name = "textBoxBild";
-            this.textBoxBild.Size = new System.Drawing.Size(200, 26);
-            this.textBoxBild.TabIndex = 23;
-            // 
-            // label12
-            // 
-            this.label12.Location = new System.Drawing.Point(497, 246);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(145, 26);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "Bild";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // textBoxKategorieNr
-            // 
-            this.textBoxKategorieNr.Location = new System.Drawing.Point(648, 203);
-            this.textBoxKategorieNr.Name = "textBoxKategorieNr";
-            this.textBoxKategorieNr.Size = new System.Drawing.Size(200, 26);
-            this.textBoxKategorieNr.TabIndex = 21;
-            // 
-            // label11
-            // 
-            this.label11.Location = new System.Drawing.Point(497, 203);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(145, 26);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "KategorieNr";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // textBoxProduktionsland
-            // 
-            this.textBoxProduktionsland.Location = new System.Drawing.Point(648, 166);
-            this.textBoxProduktionsland.Name = "textBoxProduktionsland";
-            this.textBoxProduktionsland.Size = new System.Drawing.Size(200, 26);
-            this.textBoxProduktionsland.TabIndex = 19;
-            // 
-            // label10
-            // 
-            this.label10.Location = new System.Drawing.Point(497, 166);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(145, 26);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "Produktionsland";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // textBoxGewicht
-            // 
-            this.textBoxGewicht.Location = new System.Drawing.Point(648, 129);
-            this.textBoxGewicht.Name = "textBoxGewicht";
-            this.textBoxGewicht.Size = new System.Drawing.Size(200, 26);
-            this.textBoxGewicht.TabIndex = 17;
+            this.textBoxTel.Location = new System.Drawing.Point(649, 170);
+            this.textBoxTel.Name = "textBoxTel";
+            this.textBoxTel.Size = new System.Drawing.Size(200, 26);
+            this.textBoxTel.TabIndex = 17;
             // 
             // label9
             // 
-            this.label9.Location = new System.Drawing.Point(497, 129);
+            this.label9.Location = new System.Drawing.Point(498, 170);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(145, 26);
             this.label9.TabIndex = 16;
-            this.label9.Text = "Gewicht";
+            this.label9.Text = "Tel";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxGroesse
+            // textBoxEmail
             // 
-            this.textBoxGroesse.Location = new System.Drawing.Point(648, 88);
-            this.textBoxGroesse.Name = "textBoxGroesse";
-            this.textBoxGroesse.Size = new System.Drawing.Size(200, 26);
-            this.textBoxGroesse.TabIndex = 15;
+            this.textBoxEmail.Location = new System.Drawing.Point(649, 129);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(200, 26);
+            this.textBoxEmail.TabIndex = 15;
             // 
             // label8
             // 
-            this.label8.Location = new System.Drawing.Point(497, 88);
+            this.label8.Location = new System.Drawing.Point(498, 129);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(145, 26);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Größe";
+            this.label8.Text = "Email";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxMaterial
+            // textBoxOrt
             // 
-            this.textBoxMaterial.Location = new System.Drawing.Point(648, 52);
-            this.textBoxMaterial.Name = "textBoxMaterial";
-            this.textBoxMaterial.Size = new System.Drawing.Size(200, 26);
-            this.textBoxMaterial.TabIndex = 13;
+            this.textBoxOrt.Location = new System.Drawing.Point(649, 93);
+            this.textBoxOrt.Name = "textBoxOrt";
+            this.textBoxOrt.Size = new System.Drawing.Size(200, 26);
+            this.textBoxOrt.TabIndex = 13;
             // 
             // label7
             // 
-            this.label7.Location = new System.Drawing.Point(497, 52);
+            this.label7.Location = new System.Drawing.Point(498, 93);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(145, 26);
             this.label7.TabIndex = 12;
-            this.label7.Text = "Material";
+            this.label7.Text = "Ort";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxFarbe
+            // textBoxPLZ
             // 
-            this.textBoxFarbe.Location = new System.Drawing.Point(169, 246);
-            this.textBoxFarbe.Name = "textBoxFarbe";
-            this.textBoxFarbe.Size = new System.Drawing.Size(200, 26);
-            this.textBoxFarbe.TabIndex = 11;
+            this.textBoxPLZ.Location = new System.Drawing.Point(649, 52);
+            this.textBoxPLZ.Name = "textBoxPLZ";
+            this.textBoxPLZ.Size = new System.Drawing.Size(200, 26);
+            this.textBoxPLZ.TabIndex = 11;
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(18, 246);
+            this.label6.Location = new System.Drawing.Point(498, 52);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(145, 26);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Farbe";
+            this.label6.Text = "PLZ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxAnzahl
+            // textBoxHausNr
             // 
-            this.textBoxAnzahl.Location = new System.Drawing.Point(169, 203);
-            this.textBoxAnzahl.Name = "textBoxAnzahl";
-            this.textBoxAnzahl.Size = new System.Drawing.Size(200, 26);
-            this.textBoxAnzahl.TabIndex = 9;
+            this.textBoxHausNr.Location = new System.Drawing.Point(169, 203);
+            this.textBoxHausNr.Name = "textBoxHausNr";
+            this.textBoxHausNr.Size = new System.Drawing.Size(200, 26);
+            this.textBoxHausNr.TabIndex = 9;
             // 
             // label5
             // 
@@ -326,15 +266,15 @@ namespace RessMan.Views
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(145, 26);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Anzahl";
+            this.label5.Text = "HausNr";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxEinzelpreis
+            // textBoxStrasse
             // 
-            this.textBoxEinzelpreis.Location = new System.Drawing.Point(169, 166);
-            this.textBoxEinzelpreis.Name = "textBoxEinzelpreis";
-            this.textBoxEinzelpreis.Size = new System.Drawing.Size(200, 26);
-            this.textBoxEinzelpreis.TabIndex = 7;
+            this.textBoxStrasse.Location = new System.Drawing.Point(169, 166);
+            this.textBoxStrasse.Name = "textBoxStrasse";
+            this.textBoxStrasse.Size = new System.Drawing.Size(200, 26);
+            this.textBoxStrasse.TabIndex = 7;
             // 
             // label4
             // 
@@ -342,15 +282,15 @@ namespace RessMan.Views
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(145, 26);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Einzelpreis";
+            this.label4.Text = "Strasse";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxBeschreibung
+            // textBoxNachname
             // 
-            this.textBoxBeschreibung.Location = new System.Drawing.Point(169, 129);
-            this.textBoxBeschreibung.Name = "textBoxBeschreibung";
-            this.textBoxBeschreibung.Size = new System.Drawing.Size(200, 26);
-            this.textBoxBeschreibung.TabIndex = 5;
+            this.textBoxNachname.Location = new System.Drawing.Point(169, 129);
+            this.textBoxNachname.Name = "textBoxNachname";
+            this.textBoxNachname.Size = new System.Drawing.Size(200, 26);
+            this.textBoxNachname.TabIndex = 5;
             // 
             // label3
             // 
@@ -358,15 +298,15 @@ namespace RessMan.Views
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(145, 26);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Beschreibung";
+            this.label3.Text = "Nachname";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxArtikelname
+            // textBoxVorname
             // 
-            this.textBoxArtikelname.Location = new System.Drawing.Point(169, 88);
-            this.textBoxArtikelname.Name = "textBoxArtikelname";
-            this.textBoxArtikelname.Size = new System.Drawing.Size(200, 26);
-            this.textBoxArtikelname.TabIndex = 3;
+            this.textBoxVorname.Location = new System.Drawing.Point(169, 88);
+            this.textBoxVorname.Name = "textBoxVorname";
+            this.textBoxVorname.Size = new System.Drawing.Size(200, 26);
+            this.textBoxVorname.TabIndex = 3;
             // 
             // label2
             // 
@@ -374,15 +314,15 @@ namespace RessMan.Views
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 26);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Artikelname";
+            this.label2.Text = "Vorname";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxArtikelID
+            // textBoxKundenID
             // 
-            this.textBoxArtikelID.Location = new System.Drawing.Point(169, 52);
-            this.textBoxArtikelID.Name = "textBoxArtikelID";
-            this.textBoxArtikelID.Size = new System.Drawing.Size(200, 26);
-            this.textBoxArtikelID.TabIndex = 1;
+            this.textBoxKundenID.Location = new System.Drawing.Point(169, 52);
+            this.textBoxKundenID.Name = "textBoxKundenID";
+            this.textBoxKundenID.Size = new System.Drawing.Size(200, 26);
+            this.textBoxKundenID.TabIndex = 1;
             // 
             // label1
             // 
@@ -390,10 +330,10 @@ namespace RessMan.Views
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(145, 26);
             this.label1.TabIndex = 0;
-            this.label1.Text = "ArtikelID";
+            this.label1.Text = "KundenID";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // UcArtikel
+            // UcKunde
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -405,7 +345,7 @@ namespace RessMan.Views
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Location = new System.Drawing.Point(15, 15);
-            this.Name = "UcArtikel";
+            this.Name = "UcKunde";
             this.Size = new System.Drawing.Size(1467, 783);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
@@ -420,29 +360,23 @@ namespace RessMan.Views
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnInsert;
-        private System.Windows.Forms.TextBox textBoxBild;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBoxKategorieNr;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBoxProduktionsland;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBoxGewicht;
+        private System.Windows.Forms.TextBox textBoxTel;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBoxGroesse;
+        private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBoxMaterial;
+        private System.Windows.Forms.TextBox textBoxOrt;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBoxFarbe;
+        private System.Windows.Forms.TextBox textBoxPLZ;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBoxAnzahl;
+        private System.Windows.Forms.TextBox textBoxHausNr;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBoxEinzelpreis;
+        private System.Windows.Forms.TextBox textBoxStrasse;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBoxBeschreibung;
+        private System.Windows.Forms.TextBox textBoxNachname;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxArtikelname;
+        private System.Windows.Forms.TextBox textBoxVorname;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBoxArtikelID;
+        private System.Windows.Forms.TextBox textBoxKundenID;
         private System.Windows.Forms.Label label1;
 
         private System.Windows.Forms.Panel panel4;
