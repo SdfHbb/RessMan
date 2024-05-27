@@ -139,6 +139,7 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include=".gitignore" />
+      <Content Include="readme.md" />
       <Content Include="Ressources\ressman.png" />
       <Content Include="Ressources\ressman.sql" />
     </ItemGroup>
