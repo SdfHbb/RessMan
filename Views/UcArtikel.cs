@@ -62,7 +62,7 @@ namespace RessMan.Views
             artikel.Einzelpreis = Convert.ToDecimal(textBoxEinzelpreis.Text);
             artikel.Anzahl = Convert.ToInt32(textBoxAnzahl.Text);
             artikel.Farbe = textBoxFarbe.Text;
-            artikel.Artikelname = textBoxMaterial.Text;
+            artikel.Material = textBoxMaterial.Text;
             artikel.Groesse = textBoxGroesse.Text;
             artikel.Gewicht = textBoxGewicht.Text;
             artikel.Produktionsland = textBoxProduktionsland.Text;
